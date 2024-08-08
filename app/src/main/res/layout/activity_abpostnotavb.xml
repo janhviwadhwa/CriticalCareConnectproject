@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".abpostnotavb"
+    android:background="#D9D6D6">
+
+    <ImageButton
+        android:layout_width="142dp"
+        android:layout_height="132dp"
+        android:src="@drawable/opost"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <ImageButton
+        android:layout_width="142dp"
+        android:layout_height="132dp"
+        android:src="@drawable/abpost"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <ImageButton
+        android:layout_width="142dp"
+        android:layout_height="132dp"
+
+        android:src="@drawable/bpost"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If AB+ Blood Type Is Not Present You May Go For Alternatives :-"
+        android:textAlignment="center"
+        android:textColor="#1D3557"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <ImageButton
+        android:layout_width="142dp"
+        android:layout_height="132dp"
+        android:src="@drawable/bnegt"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <ImageButton
+        android:layout_width="142dp"
+        android:layout_height="132dp"
+        android:src="@drawable/anegt"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <ImageButton
+        android:layout_width="142dp"
+        android:layout_height="132dp"
+        android:src="@drawable/apost"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <ImageButton
+        android:layout_width="142dp"
+        android:layout_height="132dp"
+        android:src="@drawable/onegt"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <ImageButton
+        android:layout_width="142dp"
+        android:layout_height="132dp"
+        android:src="@drawable/abnegt"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="553dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
